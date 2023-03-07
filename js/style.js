@@ -39,7 +39,7 @@ while (isNaN(number) || +number < 1) {
   number = prompt('Your number is incorrect, please enter a valid number');
 }
 let result = number * 12;
-alert(`${number} * 12 equals ${result}`);
+alert(`${number} by 12 equals ${result}`);
 
 // Завдання 4
 for (let i = 2; i < 52; i += 2)
